@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiTabs-flexContainer {
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.MuiTabs-flexContainer button {
+  text-transform: unset;
+  color: unset !important;
+}
+
+.input {
+  display: flex;
+  gap: 30px;
+}
+
+.btn {
+  padding: 9px 45px !important;
+  text-transform: unset !important;
+}
+
+.checked .MuiFormControlLabel-label {
+  text-decoration: line-through;
+}
+
+.delete-all {
+  display: flex;
+  background-color: red;
+  width: 120px;
+  padding: 13px 15px;
+  border-radius: 6px;
+  color: white;
+  justify-content: center;
+}
+
+.box-delete {
+  display: flex;
+  justify-content: flex-end;
+}
